@@ -48,13 +48,19 @@ class MyApp extends StatelessWidget {
                   child: // Email
                       Padding(
                     padding: const EdgeInsets.only(left: 8.0, top: 8.0),
-                    child: Text("Email",
-                        style: const TextStyle(
-                            color: const Color(0xffd2d2d2),
-                            fontWeight: FontWeight.w400,
-                            fontFamily: "Roboto",
-                            fontStyle: FontStyle.normal,
-                            fontSize: 14.0)),
+                    child: TextField(
+                      decoration: InputDecoration(
+                        hintText: 'Email',
+                        border: InputBorder.none,
+                        hintStyle: const TextStyle(
+                          color: const Color(0xffd2d2d2),
+                          fontWeight: FontWeight.w400,
+                          fontFamily: "Roboto",
+                          fontStyle: FontStyle.normal,
+                          fontSize: 14.0,
+                        ),
+                      ),
+                    ),
                   ),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(6)),
@@ -69,13 +75,20 @@ class MyApp extends StatelessWidget {
                   child: // Email
                       Padding(
                     padding: const EdgeInsets.only(left: 8.0, top: 8.0),
-                    child: Text("Password",
-                        style: const TextStyle(
-                            color: const Color(0xffd2d2d2),
-                            fontWeight: FontWeight.w400,
-                            fontFamily: "Roboto",
-                            fontStyle: FontStyle.normal,
-                            fontSize: 14.0)),
+                    child: TextField(
+                      obscureText: true,
+                      decoration: InputDecoration(
+                        hintText: 'Password',
+                        border: InputBorder.none,
+                        hintStyle: const TextStyle(
+                          color: const Color(0xffd2d2d2),
+                          fontWeight: FontWeight.w400,
+                          fontFamily: "Roboto",
+                          fontStyle: FontStyle.normal,
+                          fontSize: 14.0,
+                        ),
+                      ),
+                    ),
                   ),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(6)),
