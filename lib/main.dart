@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 96.0),
               child: Container(
-                  width: 198,
+                  width: 300,
                   height: 32,
                   child: // Email
                       Padding(
@@ -70,7 +70,7 @@ class MyApp extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 26.0),
               child: Container(
-                  width: 198,
+                  width: 300,
                   height: 32,
                   child: // Email
                       Padding(
@@ -99,7 +99,7 @@ class MyApp extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 26),
               child: Container(
-                  width: 198,
+                  width: 300,
                   height: 42,
                   child: // LOGIN
                       Center(
